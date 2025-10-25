@@ -1,0 +1,33 @@
+{
+  "name": "sepatu-wash-api",
+  "version": "1.0.0",
+  "description": "REST API sederhana untuk layanan daftar barang cuci sepatu (Node.js + Express.js + Supabase), siap deploy ke Vercel.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "vercel-dev": "vercel dev"
+  },
+  "keywords": [
+    "express",
+    "supabase",
+    "vercel",
+    "rest-api",
+    "laundry",
+    "shoes"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.1",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
